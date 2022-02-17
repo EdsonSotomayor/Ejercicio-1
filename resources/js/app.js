@@ -26,6 +26,7 @@ const app = {
                                 ${auto.motor.rendimiento},
                             </small>
                         </div>
+                    </div>
                         `;
                 }
                 fichas.innerHTML = html
@@ -33,4 +34,8 @@ const app = {
             } ).catch(error => console.error( error ));
 
     }
+    
+}
+window.onload = function(){
+    app.cargarFichas();
 }
