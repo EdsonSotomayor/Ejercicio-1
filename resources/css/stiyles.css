@@ -1,0 +1,81 @@
+html,body{
+    height: 100%;
+}
+body{
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.2em;
+}
+.header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    min-height: 75px;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px #AAA;
+    box-shadow: 0 5px 20px #999;
+}
+.header #titulo{
+    display: inline-block;
+    padding: 0;
+}
+.header #titulo > h1{
+    margin: 15px 0;
+}
+.header > nav{
+    margin: 0 15px;
+}
+.header > nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+.menu{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    display: block;
+    float: right;
+    margin-right: 50px;
+}
+.logo > img{
+    max-width: 80px;
+    min-width: 80px;
+    max-height: 50px;
+    min-height: 50px;
+}
+#titulo{
+    margin-left: 10px;
+}
+.content{
+    width: 80%;
+    margin: 20px auto;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 5px;
+}
+.ficha {
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 320px;
+    box-shadow: 1px 1px 3px #888;
+    background-color: #E0FFFF;
+}
+.ficha > img {
+    max-width: 320px;
+    max-height: 200px;
+    min-width: 320px;
+    min-height: 200px;
+    border-radius: 10px;
+}
+.ficha > .datos{
+    padding: 5px 20px;
+    color: blue;
+    margin-top: 0;
+}

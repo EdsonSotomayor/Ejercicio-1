@@ -1,0 +1,28 @@
+[
+    {
+        "id" : 1,
+        "tipo" : "auto",
+        "foto" : "Ford-figo.jpg",
+        "marca" : "Ford",
+        "modelo" : "figo",
+        "ano" : "2016",
+        "motor" : {
+            "desplazamiento" : "1.4L",
+            "potencia" : "108HP",
+            "rendimiento" : "18 km/l"
+        }
+    },
+    {
+        "id" : 2,
+        "tipo" : "suv",
+        "foto" : "Nissan-xtrail.jpg",
+        "marca" : "Nissan",
+        "modelo" : "X-Trail",
+        "ano" : "2019",
+        "motor" : {
+            "desplazamiento" : "2.4L",
+            "potencia" : "150HP",
+            "rendimiento" : "14 km/l"
+        }
+    }
+]
